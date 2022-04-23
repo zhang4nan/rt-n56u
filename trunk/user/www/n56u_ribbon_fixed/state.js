@@ -235,7 +235,7 @@ function show_banner(L3){
 		style_2g = 'width:114px;';
 		style_5g = 'width:21px;display:none;';
 	}
-	var title_2g = '"2.4G"'
+	var title_2g = '"2.4GHz"'
 	if (!support_2g_radio()) {
 		title_2g = '"N/A" disabled';
 	}
